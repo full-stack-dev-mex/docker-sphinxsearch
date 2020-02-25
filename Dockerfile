@@ -14,7 +14,7 @@ RUN rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.
     && yum -y install deltarpm \
     && yum -y update \
     && yum -y install which wget curl postgresql-libs unixODBC mariadb-libs ca-certificates \
-    && yum -y install http://sphinxsearch.com/files/sphinx-2.3.2-1.rhel7.x86_64.rpm \
+    && yum -y install http://sphinxsearch.com/files/sphinxsearch_2.2.11-release-1~xenial_amd64.deb \
     && yum clean all \
     && rm -rf /var/cache/yum
 
